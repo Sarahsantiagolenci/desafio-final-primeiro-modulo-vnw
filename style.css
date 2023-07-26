@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Caesar+Dressing&family=Lily+Script+One&family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    height: 11vh;
+}
+
+img {
+    width: 2vw;
+}
+
+header section {
+    display: flex;
+    width: 12vw;
+}
+
+header div {
+    display: flex;
+}
+
+header figure {
+    display: flex;
+    justify-content: space-between;
+    width: 3vw;
+}
+
+@media screen and (max-width: 500px){
+    header section {
+        width: 24vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .íconeWhatsapp {
+        display: none;
+    }
+    .íconeYoutube {
+        display: none;
+    }
+    img {
+        width: 3vw;
+        height: 5vh;
+    }
+}
+
+main section {
+    background-image: url(./primeiro\ dog.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 113vh;
+}
+
+.primeiroTexto {
+    text-align: center;
+    font-family: "Roboto";
+    color: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    font-size: 50px;
+    font-weight: 600px;
+    width: 32vw;
+}
+
+.figurePrimeiraSection {
+    display: flex;
+    align-items: center;
+    width: 8vw;
+    height: 19vh;
+    position: absolute;
+    top: 340px;
+    left: 580px;
+}
+
+.patinha {
+    width: 10vw;
+}
+
+.segundaSection {
+    background-image: url(./segundo\ dog.png);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+p {
+    font-size: 32px;
+}
+
+.div {
+    width: 35vw;
+    height: 45vh;
+    text-align: left;
+    position: relative;
+    left: 50px;
+}
+
+button {
+    background-color: #3A342F;
+    color: #F4F2F3;
+    width: 18vw;
+    height: 13vh;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 24px;
+    margin-top: 35px;
+}
+
+.terceiraSection {
+    background-image: url(./terceiro\ dog.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.divTerceiraSection {
+    width: 31vw;
+    height: 84vh;
+    margin-top: 20px;
+    position: relative;
+    right: 130px;
+}
+
+.segundoButton {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 18vw;
+    height: 13vh;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 24px;
+    border: none;
+    margin-top: 60px;
+}
+
+.segundoTitle {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.segundoTexto {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.partApoio {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color: #FD6A9A;
+    width: 99vw;
+    height: 10vh;
+}
+
+
+@media screen and (max-width: 500px){
+    main section {
+        background-image: url(./dog\ 1\ mobile.png);
+        width: 100vw;
+        height: 99vh;
+    }
+    .primeiroTexto {
+        font-size: 24px;
+        font-weight: 900;
+        position: absolute;
+        top: 85px;
+    }
+    .patinha {
+        display: flex;
+        background-image: url(./patinha\ mobile.png);
+        background-size: 100% 100%;
+        background-position: 0 px -50px;
+        background-repeat: no-repeat;
+        width: 103px;
+        height: 103px;
+        position: absolute;
+        top: 245px;
+    }
+    .segundaSection {
+        background-image: url(./dog\ 2\ mobile.png);
+        display: flex;
+        align-items: flex-start;
+        width: 104vw;
+        height: 116vh;
+    }
+    .div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 1;
+        margin-bottom: 250px;
+        width: 257px;
+        height: 200px;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    button {
+        background-color: #3A342F;
+        color: #F4F2F3;
+        width: 128px;
+        height: 63px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 24px;
+        margin-top: 25px;
+    }
+    .divTerceiraSection {
+        width: 281px;
+        height: 194px;
+        margin-bottom: 250px;
+        margin-right: 35px;
+    }
+    .segundoTitle {
+        font-size: 30px;
+        text-align: left;
+    }
+    .segundoTexto {
+        font-size: 15px;
+        text-align: left;
+    }
+    .segundoButton {
+        background-color: #FFFFFF;
+        color: #000000;
+        width: 128px;
+        height: 63px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 24px;
+        border: none;
+        margin-top: 25px;
+    }
+    .terceiraSection {
+        background-image: url(./dog\ 3\ mobile.png);
+    }
+    .partApoio {
+        display: flex;
+        width: 100vw;
+    }
+    .partApoio h4 {
+        order: 2;
+    }
+    .partApoio h2 {
+        order: 1;
+    }
+    .partApoio h3 {
+        order: 3;
+    }
+    .apoio {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EB4A7B;
+    width: 99vw;
+    height: 40vh;
+    color: #FFFFFF;
+}
+
+footer h3 {
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+ul {
+    margin-top: 31px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+footer div {
+    margin-left: 0px;
+}
+
+li {
+    margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #EB4A7B;
+        color: #FFFFFF;
+        width: 499px;
+        height: 900px;
+    }
+    footer h3 {
+        font-weight: 900;
+        margin-top: 50px;
+        text-align: center;
+    }
+    footer div {
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    ul {
+        margin-top: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    li {
+        margin: 5px;
+    }
+    .fantastika {
+        margin-left: 85px;
+        background-image: url(./fantastika\ mobile.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 94px;
+    }
+    .navMobile {
+        display: flex;
+        justify-content: space-evenly;
+        width: 600px;
+        margin: 20px;
+    }
+    .instagram {
+        background-image: url(./instagram\ mobile.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 45px;
+    }
+    .youtube {
+        background-image: url(./youtube\ mobile.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 45px;
+    }
+    .whatsapp {
+        background-image: url(./whatsapp\ mobile.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 45px;
+    }
+}
