@@ -302,6 +302,14 @@ li {
     margin: 5px;
 }
 
+.fantastikaMobile {
+    display: none;
+}
+
+.redesMobile {
+    display: none;
+}
+
 @media screen and (max-width: 500px) {
     footer {
         display: flex;
@@ -330,43 +338,25 @@ li {
     li {
         margin: 5px;
     }
-    .fantastika {
-        margin-left: 85px;
-        background-image: url(./fantastika\ mobile.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 335px;
-        height: 94px;
-    }
-    .navMobile {
+    .fantastikaMobile {
         display: flex;
+        justify-content: center;
+    }
+    .redesMobile {
+        display: flex;
+        justify-content: center;
         justify-content: space-evenly;
-        width: 600px;
-        margin: 20px;
+        align-items: center;
+        width: 40vw;
+        position: absolute;
+        right: 145px;
     }
-    .instagram {
-        background-image: url(./instagram\ mobile.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 180px;
-        height: 45px;
+    .logoFooterMobile {
+        width: 50vw;
+        height: 20vh;
     }
-    .youtube {
-        background-image: url(./youtube\ mobile.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 180px;
-        height: 45px;
+    .imgMobile {
+        width: 5vw;
     }
-    .whatsapp {
-        background-image: url(./whatsapp\ mobile.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 180px;
-        height: 45px;
-    }
+    
 }
